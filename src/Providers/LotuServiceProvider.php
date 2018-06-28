@@ -22,7 +22,7 @@ public function boot(Twig $twig, Dispatcher $eventDispatcher)
 	{
 			$eventDispatcher->listen('IO.init.templates', function(Partial $partial)
 			{
-				 $partial->set('footer', 'Lotu::content.ThemeFooter');
+				 $partial->set('footer', 'Lotu::ThemeFooter');
 			}, 0);
 			return false;
 	}
