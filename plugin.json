@@ -1,0 +1,20 @@
+{
+    "version"           :   "0.0.1",
+    "license"           :   "MIT",
+    "name"              :   "Lotu",
+    "shortDescription"  :   { "de": "Theme für Lotu Bootszubehör", "en": "TODO add manually" },
+    "namespace"         :   "Lotu",
+    "author"            :   "Ayoub El Hobbi",
+    "price"             :   0,
+    "categories"        :   [3518],
+    "type"              :   "theme",
+    "serviceProvider"   :   "Lotu\\Providers\\LotuServiceProvider",
+    "dataProviders"     :
+    [
+        {
+            "key"           :"Lotu\\Containers\\LotuContainer",
+            "name"          :"Generated plugin container",
+            "description"   :"Add changes to the CSS file"
+        }
+    ]
+}

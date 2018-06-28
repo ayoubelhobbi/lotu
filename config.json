@@ -1,0 +1,105 @@
+{
+    "formatVersion": 1,
+    "menu": {
+        "Config.CategoriesTab": {
+            "label": "Config.CategoriesTab",
+            "formFields": {
+                "global.category.home": {
+                    "type": "categoryPicker",
+                    "required": false,
+                    "label": "Config.globalCategoryHomeLabel",
+                    "options": {}
+                }
+            }
+        },
+        "Config.HeaderTab": {
+            "label": "Config.HeaderTab",
+            "formFields": {
+                "header.company_logo_align": {
+                    "type": "selectBox",
+                    "required": false,
+                    "label": "Config.headerCompanyLogoAlignLabel",
+                    "options": {
+                        "defaultValue": "0",
+                        "selectBoxValues": [
+                            {
+                                "value": "0",
+                                "caption": "Config.headerCompanyLogoAlignPossibleValue0"
+                            },
+                            {
+                                "value": "1",
+                                "caption": "Config.headerCompanyLogoAlignPossibleValue1"
+                            },
+                            {
+                                "value": "2",
+                                "caption": "Config.headerCompanyLogoAlignPossibleValue2"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "Config.FooterTab": {
+            "label": "Config.FooterTab",
+            "formFields": {
+                "footer.col_1_title": {
+                    "type": "inputText",
+                    "required": false,
+                    "label": "Config.footerCol1TitleLabel",
+                    "options": {
+                        "defaultValue": "Shop"
+                    }
+                }
+            }
+        },
+        "Config.SEOTab": {
+            "label": "Config.SEOTab",
+            "formFields": {
+                "seo.text_area": {
+                    "type": "inputTextArea",
+                    "required": false,
+                    "label": "Config.seoTextAreaLabel",
+                    "options": {
+                        "defaultValue": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."
+                    }
+                }
+            }
+        },
+        "Config.ItemTab": {
+            "label": "Config.ItemTab",
+            "formFields": {
+                "item.data": {
+                    "type": "multiCheckBox",
+                    "required": false,
+                    "label": "Config.itemDataLabel",
+                    "options": {
+                        "defaultValue": "all",
+                        "checkBoxValues": [
+                            {
+                                "value": "item.technical_data",
+                                "caption": "Config.itemDataPossibleValueItemTechnicalData"
+                            },
+                            {
+                                "value": "item.description",
+                                "caption": "Config.itemDataPossibleValueItemDescription"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "Config.BasketTab": {
+            "label": "Config.BasketTab",
+            "formFields": {
+                "basket.variations": {
+                    "type": "checkBox",
+                    "required": false,
+                    "label": "Config.basketVariationsLabel",
+                    "options": {
+                        "defaultValue": true
+                    }
+                }
+            }
+        }
+    }
+}
