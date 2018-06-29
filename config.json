@@ -2,7 +2,7 @@
     "formatVersion": 1,
     "menu": {
         "Config.CategoriesTab": {
-            "label": "Config.CategoriesTab",
+            "label": "Config.Kategorie",
             "formFields": {
                 "global.category.home": {
                     "type": "categoryPicker",
@@ -13,7 +13,7 @@
             }
         },
         "Config.HeaderTab": {
-            "label": "Config.HeaderTab",
+            "label": "Config.Header",
             "formFields": {
                 "header.company_logo_align": {
                     "type": "selectBox",
@@ -40,7 +40,7 @@
             }
         },
         "Config.FooterTab": {
-            "label": "Config.FooterTab",
+            "label": "Config.Footer",
             "formFields": {
                 "footer.col_1_title": {
                     "type": "inputText",
@@ -53,7 +53,7 @@
             }
         },
         "Config.SEOTab": {
-            "label": "Config.SEOTab",
+            "label": "Config.SEO",
             "formFields": {
                 "seo.text_area": {
                     "type": "inputTextArea",
@@ -66,7 +66,7 @@
             }
         },
         "Config.ItemTab": {
-            "label": "Config.ItemTab",
+            "label": "Config.Artikel",
             "formFields": {
                 "item.data": {
                     "type": "multiCheckBox",
@@ -89,7 +89,7 @@
             }
         },
         "Config.BasketTab": {
-            "label": "Config.BasketTab",
+            "label": "Config.Warenkorb",
             "formFields": {
                 "basket.variations": {
                     "type": "checkBox",
