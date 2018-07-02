@@ -8,6 +8,16 @@ email: ayoub@elhobbi.com
 website: http://ayouncif.com
 ----------------------------------------------------------*/
 
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+* {
+	font-family: 'Nunito', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Nunito', sans-serif !important;
+}
+
 .footer .footer-features {
 
   background-color: #008ebd;
