@@ -36,7 +36,7 @@ website: http://ayouncif.com
 .footer li:before {
     content: "• ";
     color: #ffce00;
-    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .footer h4 {
