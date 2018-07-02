@@ -7,14 +7,12 @@ author: Ayoub El Hobbi
 email: ayoub@elhobbi.com
 website: http://ayouncif.com
 ----------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css?family=Nunito');
 
 /* Wenn Theme fertig dann entfernen */
 .pluginset-preview-overlay {
   position: relative !important;
 }
-
-
-@import url('https://fonts.googleapis.com/css?family=Nunito');
 
 * {
 	font-family: 'Nunito', sans-serif;
