@@ -31,8 +31,11 @@ h1, h2, h3, h4, h5, h6 {
 
 .footer {
   background: #222222;
-  padding: 50px;
+  padding-top: 50px;
   color: #fff;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 20px;
 }
 
 .footer img {
@@ -46,6 +49,7 @@ h1, h2, h3, h4, h5, h6 {
     -moz-padding-start: 0px;
     margin-bottom: 15px;
     margin-top: 15px;
+    padding-bottom: 10px;
 }
 
 .footer li {
@@ -68,5 +72,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .footer small {
   display: block;
-  text-align: center !important;
+  border-top: 1px solid #fff;
+  clear: left;
+  padding-top: 16px;
 }
