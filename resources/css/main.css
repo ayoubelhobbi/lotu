@@ -105,3 +105,30 @@ h1, h2, h3, h4, h5, h6 {
 .container-max {
   background-color: #000;
 }
+
+.sidebar-categories {
+  background-color: #000;
+}
+
+.sidebar-categories .category-title {
+  background: none;
+}
+
+.sidebar-categories ul li.active > a {
+  color: #ffce00;
+}
+.sidebar-categories ul li a:hover {
+  background: none;
+}
+
+.sidebar-categories ul li a {
+  color: #fff;
+}
+
+.sidebar-categories ul li.active ul li a {
+  color: #fff;
+}
+
+.list-controls .list-controls-inner {
+  background: none;
+}
