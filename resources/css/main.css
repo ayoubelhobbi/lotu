@@ -132,3 +132,35 @@ h1, h2, h3, h4, h5, h6 {
 .list-controls .list-controls-inner {
   background: none;
 }
+
+.wrapper-main > nav.container-max {
+  background: none;
+}
+
+.wrapper-main .navbar {
+  background: none;
+}
+
+.navbar {
+  background: none;
+}
+
+.top-bar {
+  background-color: #000;
+}
+
+#mainNavbarCollapsable ul.mainmenu {
+  color: #fff;
+}
+
+.top-bar .controls-list .control-basket .toggle-basket-preview {
+  background-color: transparent;
+}
+
+.top-bar .controls-list .control-basket .toggle-basket-preview:hover {
+  background-color: transparent;
+}
+
+.anicon > .anicon-search-item:after {
+  background: #fff;
+}
