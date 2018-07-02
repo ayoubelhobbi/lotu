@@ -11,7 +11,7 @@ website: http://ayouncif.com
 
 /* Wenn Theme fertig dann entfernen */
 .pluginset-preview-overlay {
-  position: relative !important;
+  display: none;
 }
 
 * {
