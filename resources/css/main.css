@@ -4,7 +4,16 @@
 }
 
 .footer {
+  background: #222222;
+  padding: 50px;
+  color: #fff;
+}
 
-  background: #000;
+.footer ul {
+    list-style-type: none;
+}
 
+.footer li:before {
+    content: "• ";
+    color: #ffce00;
 }
