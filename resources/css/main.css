@@ -8,6 +8,12 @@ email: ayoub@elhobbi.com
 website: http://ayouncif.com
 ----------------------------------------------------------*/
 
+/* Wenn Theme fertig dann entfernen */
+.pluginset-preview-overlay {
+  position: relative !important;
+}
+
+
 @import url('https://fonts.googleapis.com/css?family=Nunito');
 
 * {
@@ -60,4 +66,9 @@ h1, h2, h3, h4, h5, h6 {
 
 .footer a {
   color: #fff;
+}
+
+.footer small {
+  display: block;
+  text-align: center !important;
 }
