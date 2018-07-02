@@ -14,6 +14,10 @@ website: http://ayouncif.com
   display: none;
 }
 
+a {
+  color: #ffce00;
+}
+
 a:hover {
   color: #ffce00 !important;
 }
@@ -80,4 +84,24 @@ h1, h2, h3, h4, h5, h6 {
   border-top: 1px solid #fff;
   clear: left;
   padding-top: 16px;
+}
+
+.cmp-product-thumb .thumb-title, .cmp-product-thumb .price {
+  color: #fff;
+}
+
+.cmp-product-thumb .thumb-content {
+  background-color: #2e2e2e;
+}
+
+.text-muted {
+  color: #fff;
+}
+
+.wrapper-main #page-body {
+  background-color: #000;
+}
+
+.container-max {
+  background-color: #000;
 }
