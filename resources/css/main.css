@@ -86,6 +86,10 @@ h1, h2, h3, h4, h5, h6 {
   padding-top: 16px;
 }
 
+body > #vue-app, body > #vue-error {
+  background-color: #000;
+}
+
 .cmp-product-thumb .thumb-title, .cmp-product-thumb .price {
   color: #fff;
 }
@@ -116,6 +120,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .sidebar-categories ul li.active > a {
   color: #ffce00;
+  background: none;
 }
 .sidebar-categories ul li a:hover {
   background: none;
@@ -129,6 +134,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
+
 .list-controls .list-controls-inner {
   background: none;
 }
@@ -139,6 +145,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .wrapper-main .navbar {
   background: none;
+  border-bottom: 1px solid #000;
 }
 
 .navbar {
