@@ -31,18 +31,15 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
-/* UL Start Padding zurücksetzen */
-.footer ul {
-  -webkit-padding-start: 0px;
-  -moz-padding-start: 0px;
-}
-
 .footer img {
   margin-bottom: 20px;
 }
 
+/* UL Start Padding zurücksetzen */
 .footer ul {
     list-style-type: none;
+    -webkit-padding-start: 0px;
+    -moz-padding-start: 0px;
 }
 
 .footer li {
