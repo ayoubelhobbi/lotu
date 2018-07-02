@@ -96,6 +96,7 @@ body > #vue-app, body > #vue-error {
 
 .cmp-product-thumb .thumb-content {
   background-color: #2e2e2e;
+  height: 100%;
 }
 
 .text-muted {
@@ -179,4 +180,20 @@ body > #vue-app, body > #vue-error {
 .cmp-product-thumb .add-to-basket-lg-container:hover {
 
   border-color: transparent #ffce00 transparent transparent;
+}
+
+.parallax-img-container .parallax-text-container h1 {
+  color: #fff;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #000;
+  border-color: #000;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #ffce00;
+    border-color: #000;
 }
