@@ -191,8 +191,8 @@ body > #vue-app, body > #vue-error {
 }
 
 .btn-primary {
-  color: #fff;
-  background-color: #000;
+  color: #000;
+  background-color: #ffce00;
   border-color: #000;
 }
 
@@ -200,6 +200,7 @@ body > #vue-app, body > #vue-error {
     color: #fff;
     background-color: #ffce00;
     border-color: #000;
+    opacity: 0.9;
 }
 
 .list-wrapper {
@@ -213,4 +214,380 @@ body > #vue-app, body > #vue-error {
 
 .top-bar .controls-list .control-basket .toggle-basket-preview {
   color: #ffce00;
+}
+
+
+
+
+/* CeresVanilla */
+
+.navbar-brand img {
+    max-height: 6rem;
+}
+
+.plenty-brand {
+	display: none;
+}
+
+#ppButton > a > img {
+
+	display: block;
+	margin: 0 auto;
+}
+
+.owl-carousel .owl-item img {
+	width: 100%;
+}
+
+.m-b-0 {
+	display: none;
+}
+
+button.btn.btn-block.btn-default {
+
+	color: #fff;
+    background-color: #008ebd;
+    border-color: #008ebd;
+}
+
+.fa-spinner:before {
+
+	content: "";
+}
+
+#page-body > div > div > div.col-md-5.single-rightside.m-t-1 > div:nth-child(6) > div, #page-body > div > div > div:nth-child(2) > div > div:nth-child(6) > div {
+	display: none;
+}
+
+/*
+.tab-content {
+	background-color: #dadae3;
+    padding: 20px;
+    color: #4D4F4D;
+}
+*/
+
+#controlsList > li.list-inline-item.dropdown.control-languages {
+	display: none;
+}
+
+.homepage-title {
+	 width: 1px;
+	 height: 1px;
+	 position: absolute;
+	 clip: rect(1px, 1px, 1px, 1px);
+ }
+
+
+@media (min-width: 900px) {
+  .background {
+    padding: 0 0 25px;
+  }
+}
+
+.PricingContainer {
+      margin: 0 auto;
+    padding: 50px 0 0;
+    max-width: 1190px;
+    width: 100%;
+}
+
+.PricingContainer h2 {
+
+	text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 50px;
+}
+}
+
+.PricingPanel {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 15px 25px;
+  position: relative;
+  width: 100%;
+  z-index: 10;
+  margin-bottom: 30px;
+}
+
+.pricing-table {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 900px) {
+  .pricing-table {
+    flex-direction: row;
+  }
+}
+
+.pricing-table * {
+  text-align: center;
+}
+
+.pricing-plan {
+  border-bottom: 1px solid #e1f1ff;
+  padding: 25px;
+}
+
+.pricing-plan:last-child {
+  border-bottom: none;
+}
+
+.white-popup-block {
+    background: #FFF;
+    padding: 20px 30px;
+    text-align: left;
+    max-width: 650px;
+    margin: 40px auto;
+    position: relative;
+ }
+
+@media (min-width: 900px) {
+  .pricing-plan {
+    border-bottom: none;
+    border-right: 1px solid #e1f1ff;
+    flex-basis: 100%;
+    padding: 25px 50px;
+  }
+
+  .pricing-plan:last-child {
+    border-right: none;
+  }
+}
+
+.pricing-img {
+  margin-bottom: 25px;
+  max-width: 100%;
+}
+
+.pricing-header {
+
+}
+
+.pricing-features {
+  margin: 50px 0 25px;
+}
+
+.pricing-features-item {
+  border-top: 1px solid #e1f1ff;
+  font-size: 12px;
+  line-height: 1.5;
+  padding: 15px 0;
+  list-style-type: none;
+}
+
+.pricing-features-item:last-child {
+  border-bottom: 1px solid #e1f1ff;
+
+}
+
+.pricing-price {
+  color: #016FF9;
+  display: block;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.pricing-button {
+  border: 1px solid #9dd1ff;
+  border-radius: 10px;
+  color: #348EFE;
+  display: inline-block;
+  margin: 25px 0;
+  padding: 15px 35px;
+  text-decoration: none;
+  transition: all 150ms ease-in-out;
+}
+
+.pricing-button:hover,
+.pricing-button:focus {
+  background-color: #e1f1ff;
+}
+
+
+.pricing-button.is-featured:hover,
+.pricing-button.is-featured:active {
+  background-color: #269aff;
+}
+
+
+/* CSS für das Modal - BEGIN */
+
+.klebeanleitung {
+
+	margin: 50px 0 50px 0;
+}
+
+.klebeanleitung h2 {
+
+	text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 50px;
+}
+
+/* CSS für das Modal - ENDE */
+
+
+
+/* The Modal (background) */
+.modalH {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-contentH {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.closeH {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.closeH:hover,
+.closeH:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-headerH {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+}
+
+.modal-bodyH {padding: 2px 16px;}
+
+.modal-footerH {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+}
+
+
+.youtubeVideo {
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	}
+
+.youtubeVideo p {
+	margin-top: 10px;
+	padding: 30px;
+	}
+
+@media only screen and (max-width: 500px)
+ {
+
+.youtubeVideo iframe {
+	width: 100%;
+}
+
+.navbar-brand img {
+	max-height: 4rem;
+}
+
+.wrapper-main .navbar {
+	padding: 1px 1px 1px 1px !important;
+}
+
+}
+
+@media (min-width: 1200px) {
+#single-carousel .owl-item img {
+    height: auto;
+}
+}
+
+@media (min-width: 992px) {
+#single-carousel .owl-item img {
+    height: auto;
+}
+}
+
+@media (min-width: 544px){
+#single-carousel .owl-item img {
+    height: auto;
+}
+
+
+}
+
+@media (min-width: ){
+#single-carousel .owl-item img {
+   height: auto;
+}
+}
+
+@media (min-width: 992px) {
+.wrapper-main > nav.container-max {
+    top: 125px;
+}
+}
+
+@media (min-width: 768px) {
+.wrapper-main>nav.container-max {
+    top: 130px;
+}
+}
+
+.wrapper-main .navbar {
+	padding: 21px 0 21px 0;
+}
+
+.wrapper-main #page-body {
+    margin-top: 155px;
+}
+
+.owl-thumbs .owl-thumb {
+	height: 6.16rem;
+}
+
+#dhlWunschpaket {
+	padding: 25px;
+}
+
+.square-container {
+
+	padding-bottom: 66%;
+}
+
+.square-container {
+	padding-bottom: 100%;
 }
