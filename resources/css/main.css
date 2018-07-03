@@ -231,6 +231,18 @@ body > #vue-app, body > #vue-error {
   color: #fff;
 }
 
+.custom-select{
+  background: #000;
+}
+
+.input-unit {
+  border: 1px solid #ffce00;
+}
+
+.input-unit label, .input-unit .input-unit-label {
+  color: #fff;
+}
+
 
 
 
