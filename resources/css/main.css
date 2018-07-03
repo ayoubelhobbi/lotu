@@ -237,6 +237,7 @@ body > #vue-app, body > #vue-error {
 
 .custom-select{
   background: #000;
+  border-radius: 1.5rem;
 }
 
 .input-unit {
