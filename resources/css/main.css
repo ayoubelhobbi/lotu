@@ -2,7 +2,7 @@
 Style Sheet für Lotu Theme
 
 version: 0.0.1
-Letzte Änderung: 02.07.2018
+Letzte Änderung: 03.07.2018
 author: Ayoub El Hobbi
 email: ayoub@elhobbi.com
 website: http://ayouncif.com
@@ -216,6 +216,11 @@ body > #vue-app, body > #vue-error {
 
 .list-wrapper {
   display: none;
+}
+
+.page-link {
+  background-color: #000;
+  border: 1px solid #ffce00;
 }
 
 .page-item.active .page-link, .page-item.active .page-link:focus, .page-item.active .page-link:hover {
