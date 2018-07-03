@@ -128,7 +128,7 @@ body > #vue-app, body > #vue-error {
 
 .sidebar-categories .category-title {
   background: none;
-  padding: 1.2rem 0rem;
+  padding: 1.2rem 1rem;
   color: #fff;
   font-size: 1.5rem;
 }
@@ -291,8 +291,15 @@ body > #vue-app, body > #vue-error {
   }
 }
 
+small, .small, .btn-labeled, .basket-preview .totals {
+  font-size: 100%;
+}
 
-
+@media (min-width: 544px) {
+.cmp-product-thumb .thumb-content {
+    padding: 1.3rem;
+}
+}
 
 
 
@@ -700,8 +707,4 @@ button.btn.btn-block.btn-default {
 .square-container {
 
 	padding-bottom: 66%;
-}
-
-.square-container {
-	padding-bottom: 100%;
 }
