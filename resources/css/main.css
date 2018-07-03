@@ -11,8 +11,8 @@ website: http://ayouncif.com
 
 
 @font-face {
-font-family: "KeepCalm";
-src: url("../documnets/keep_calm/KeepCalm-Medium.ttf");
+  font-family: "KeepCalm";
+  src: url("../documents/keep_calm/KeepCalm-Medium.ttf");
 }
 
 /* Wenn Theme fertig dann entfernen */
