@@ -123,7 +123,7 @@ body > #vue-app, body > #vue-error {
 }
 
 .sidebar-categories {
-  background-color: #000;
+  background-color: transparent;
 }
 
 .sidebar-categories .category-title {
