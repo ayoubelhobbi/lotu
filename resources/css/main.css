@@ -28,6 +28,7 @@ a:hover {
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Nunito', sans-serif !important;
+  color: #fff;
 }
 
 .footer .footer-features {
@@ -117,6 +118,9 @@ body > #vue-app, body > #vue-error {
 
 .sidebar-categories .category-title {
   background: none;
+  padding: 1.2rem 0rem;
+  color: #fff;
+  font-size: 1.5rem;
 }
 
 .sidebar-categories ul li.active > a {
@@ -196,4 +200,17 @@ body > #vue-app, body > #vue-error {
     color: #fff;
     background-color: #ffce00;
     border-color: #000;
+}
+
+.list-wrapper {
+  display: none;
+}
+
+.page-item.active .page-link, .page-item.active .page-link:focus, .page-item.active .page-link:hover {
+  background-color: #2e2e2e;
+  border-color: #2e2e2e;
+}
+
+.top-bar .controls-list .control-basket .toggle-basket-preview {
+  color: #ffce00;
 }
