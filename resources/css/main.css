@@ -9,6 +9,12 @@ website: http://ayouncif.com
 ----------------------------------------------------------*/
 @import url('https://fonts.googleapis.com/css?family=Nunito');
 
+
+@font-face {
+font-family: "KeepCalm";
+src: url("../documnets/keep_calm/KeepCalm-Medium.ttf");
+}
+
 /* Wenn Theme fertig dann entfernen */
 .pluginset-preview-overlay {
   display: none;
@@ -23,11 +29,11 @@ a:hover {
 }
 
 * {
-	font-family: 'Nunito', sans-serif;
+	font-family: 'KeepCalm', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Nunito', sans-serif !important;
+	font-family: 'KeepCalm', sans-serif !important;
   color: #fff;
 }
 
@@ -237,17 +243,25 @@ body > #vue-app, body > #vue-error {
 
 .custom-select{
   background: #000;
-  border-radius: 1.5rem;
 }
 
 .input-unit {
   border: 1px solid #ffce00;
+  border-radius: 1.4rem;
 }
 
 .input-unit label, .input-unit .input-unit-label {
   color: #fff;
 }
 
+.section-header {
+  background: none;
+}
+
+.section-header h1, .section-header h2, .section-header h3, .section-header h4, .section-header h5, .section-header h6 {
+  font-weight: bold;
+  font-size: 3rem;
+}
 
 
 
