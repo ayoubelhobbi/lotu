@@ -214,6 +214,17 @@ body > #vue-app, body > #vue-error {
     opacity: 0.9;
 }
 
+.btn-outline-primary {
+  color: #ffce00;
+  border-color: #ffce00;
+}
+
+.btn-outline-primary:hover {
+  color: #000;
+  background-color: #ffce00;
+  border-color: #FFCE02;
+}
+
 .list-wrapper {
   display: none;
 }
@@ -225,7 +236,7 @@ body > #vue-app, body > #vue-error {
 
 .page-item.active .page-link, .page-item.active .page-link:focus, .page-item.active .page-link:hover {
   background-color: #2e2e2e;
-  border-color: #2e2e2e;
+  border-color: ##ffce00;
 }
 
 .top-bar .controls-list .control-basket .toggle-basket-preview {
