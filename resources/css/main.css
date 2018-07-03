@@ -193,7 +193,7 @@ body > #vue-app, body > #vue-error {
 .btn-primary {
   color: #000;
   background-color: #ffce00;
-  border-color: #000;
+  border-color: #ffce00;
 }
 
 .btn-primary:hover {
@@ -215,6 +215,59 @@ body > #vue-app, body > #vue-error {
 .top-bar .controls-list .control-basket .toggle-basket-preview {
   color: #ffce00;
 }
+
+.qty-box .qty-input {
+    border: 1px solid #ffce00;
+    background-color: #000;
+    color: #fff;
+}
+
+.qty-box .qty-btn-container {
+    border: 1px solid #ffce00;
+    background: #000;
+}
+
+.qty-box .qty-btn-container .qty-btn > .qty-sign{
+  color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -238,6 +291,9 @@ body > #vue-app, body > #vue-error {
 .owl-carousel .owl-item img {
 	width: 100%;
 }
+
+
+/*Das muss man noch überprüfen*/
 
 .m-b-0 {
 	display: none;
