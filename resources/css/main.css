@@ -119,7 +119,7 @@ body > #vue-app, body > #vue-error {
 }
 
 .container-max {
-  background-color: #000;
+  background-color: transparent;
 }
 
 .sidebar-categories {
@@ -686,6 +686,7 @@ button.btn.btn-block.btn-default {
 
 .wrapper-main #page-body {
     margin-top: 155px;
+    background-image: url(https://www.lotu.de/images/hintegrund.jpg);
 }
 
 .owl-thumbs .owl-thumb {
