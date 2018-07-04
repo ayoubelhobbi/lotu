@@ -209,6 +209,8 @@ body > #vue-app, body > #vue-error {
   color: #000;
   background-color: #ffce00;
   border-color: #ffce00;
+  border-radius: 1.4rem;
+  font-family: 'akaChen', sans-serif !important;
 }
 
 .btn-primary:hover {
@@ -260,7 +262,7 @@ body > #vue-app, body > #vue-error {
   border: 2px solid #ffce00;
   background-color: #000;
   color: #fff;
-  border-left: 3px solid #ffcc00;
+  border-right: 1px solid #ffce00;
   border-top-left-radius: 1.4rem;
   border-bottom-left-radius: 1.4rem;
   width: 87px;
