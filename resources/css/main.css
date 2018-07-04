@@ -387,6 +387,44 @@ button.close {
 }
 }
 
+@media (min-width: 992px) {
+.no-touch nav.navbar.megamenu #mainNavbarCollapsable ul.mainmenu > li:hover, .touch nav.navbar.megamenu #mainNavbarCollapsable ul.mainmenu > li.hover {
+    background: transparent;
+    color: #fff !important;
+}
+}
+
+@media (min-width: 992px){
+nav.navbar.megamenu #mainNavbarCollapsable ul.mainmenu > li > ul.collapse > li.level1 > a {
+    color: #ffce00;
+    font-weight: bold;
+}
+}
+
+@media (min-width: 992px){
+nav.navbar.megamenu #mainNavbarCollapsable ul.mainmenu > li > ul.collapse > li a {
+  background: #222222;
+  color: #fff;
+}
+}
+
+@media (min-width: 992px){
+nav.navbar.megamenu #mainNavbarCollapsable ul.mainmenu > li > ul.collapse {
+  background-color: #222222;
+}
+}
+
+@media (min-width: 992px) {
+.no-touch nav.navbar.megamenu #mainNavbarCollapsable ul.mainmenu > li > ul.collapse > li:hover, .touch nav.navbar.megamenu #mainNavbarCollapsable ul.mainmenu > li > ul.collapse > li.hover{
+  background: transparent;
+}
+}
+
+@media (min-width: 992px) {
+.no-touch nav.navbar.megamenu #mainNavbarCollapsable ul.mainmenu > li > ul.collapse > li a:hover, .touch nav.navbar.megamenu #mainNavbarCollapsable ul.mainmenu > li > ul.collapse > li a.hover{
+  color: #ffce00 !important;
+}
+}
 
 /* Responsive -- Mobile*/
 .navbar-toggler {
