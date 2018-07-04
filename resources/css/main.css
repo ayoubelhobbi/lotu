@@ -333,7 +333,7 @@ body > #vue-app, body > #vue-error {
 }
 }
 
-span.vat-porto-info.small.text-muted, small, .small, .btn-labeled, .basket-preview .totals {
+span.vat-porto-info.small.text-muted, .small, .btn-labeled, .basket-preview .totals {
   font-size: 73%;
   border-top: 1px solid #ffce00;
   padding-top: 1px;
