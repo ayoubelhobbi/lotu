@@ -39,6 +39,7 @@ h1, h2, h3, h4, h5, h6 {
 
 body {
   color: #fff;
+  background-image: url(https://www.lotu.de/images/hintergrund.png);
 }
 
 .footer .footer-features {
@@ -98,7 +99,7 @@ body {
 }
 
 body > #vue-app, body > #vue-error {
-  background-color: #000;
+  background-color: transparent;
 }
 
 .cmp-product-thumb .thumb-title, .cmp-product-thumb .price {
@@ -160,7 +161,7 @@ body > #vue-app, body > #vue-error {
 
 .wrapper-main .navbar {
   background: none;
-  border-bottom: 1px solid #000;
+  border-bottom: transparent;
 }
 
 .navbar {
@@ -168,7 +169,7 @@ body > #vue-app, body > #vue-error {
 }
 
 .top-bar {
-  background-color: #000;
+  background-color: transparent;
 }
 
 #mainNavbarCollapsable ul.mainmenu {
@@ -693,7 +694,7 @@ button.btn.btn-block.btn-default {
 
 .wrapper-main #page-body {
     margin-top: 155px;
-    background-image: url(https://www.lotu.de/images/hintegrund.jpg);
+    background: transparent;
 }
 
 .owl-thumbs .owl-thumb {
