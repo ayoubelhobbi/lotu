@@ -286,6 +286,9 @@ body > #vue-app, body > #vue-error {
 
 .qty-box .qty-btn-container .qty-btn > .qty-sign{
   color: #fff;
+  font-size: 0.8rem;
+  vertical-align: middle;
+  clear: both;
 }
 
 .custom-select{
