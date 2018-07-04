@@ -367,9 +367,13 @@ button.close {
   opacity: 1;
   text-shadow: none;
   color: #fff;
+  padding: none;
 }
 
-
+.availability_5 {
+  background: transparent;
+  color: #d9534f;
+}
 
 
 
@@ -429,8 +433,8 @@ button.close {
 button.btn.btn-block.btn-default {
 
 	color: #fff;
-    background-color: #008ebd;
-    border-color: #008ebd;
+  background-color: #008ebd;
+  border-color: #008ebd;
 }
 
 .fa-spinner:before {
