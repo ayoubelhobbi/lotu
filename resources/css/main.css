@@ -362,6 +362,13 @@ span.vat-porto-info.small.text-muted {
   border: 1px solid #ffce00;
 }
 
+button.close {
+  background: #ffce00;
+  opacity: 1;
+  text-shadow: none;
+  color: #fff;
+}
+
 
 
 
