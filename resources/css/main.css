@@ -334,7 +334,7 @@ body > #vue-app, body > #vue-error {
 }
 }
 
-span.vat-porto-info.small.text-muted, .btn-labeled, .basket-preview .totals {
+span.vat-porto-info.small.text-muted, .btn-labeled, .basket-preview .totals, span.vat.small.text-muted {
   font-size: 73%;
   border-top: 1px solid #ffce00;
   padding-top: 1px;
