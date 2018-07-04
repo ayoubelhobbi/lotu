@@ -136,7 +136,10 @@ body > #vue-app, body > #vue-error {
 
 .sidebar-categories ul li.active > a {
   color: #ffce00;
-  background: none;
+  background: url(https://www.lotu.de/images/arrow-icon.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 10px;
 }
 .sidebar-categories ul li a:hover {
   background: none;
