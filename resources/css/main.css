@@ -192,8 +192,11 @@ body > #vue-app, body > #vue-error {
   background-color: transparent;
 }
 
-.anicon > .anicon-search-item:after {
-  background: #fff;
+@media (min-width: 768px) {
+.top-bar .controls-list > li a:not(.btn)[aria-expanded="true"], .top-bar .controls-list > li a:not(.btn):hover {
+    background-color: #008ebd;
+    color: #fff;
+}
 }
 
 .cmp-product-thumb .add-to-basket-lg-container {
@@ -314,12 +317,13 @@ body > #vue-app, body > #vue-error {
 
 @media (min-width: 1200px){
   .parallax-img-container .parallax-text-wrapper {
-    margin-left: 20px;
+    /* margin-left: 20px;
     margin-right: -15px;
-    background-position: right top;
+     background-position: right top;
     background-image: url(https://image.flaticon.com/icons/svg/987/987941.svg);
-    background-repeat: no-repeat;
-    padding: 3rem;
+    background-repeat: no-repeat;*/
+    padding-top: 3rem;
+    padding-left: 1rem;
   }
 }
 
@@ -379,7 +383,13 @@ button.close {
   color: #d9534f;
 }
 
-
+@media (min-width: 768px) {
+.top-bar .controls-list > li a:not(.btn) {
+    padding: 0.5rem 0.8rem;
+    display: inline-block;
+    color: #ffce00;
+}
+}
 
 
 
