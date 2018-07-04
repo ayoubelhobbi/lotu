@@ -257,14 +257,21 @@ body > #vue-app, body > #vue-error {
 }
 
 .qty-box .qty-input {
-    border: 1px solid #ffce00;
-    background-color: #000;
-    color: #fff;
+  border: 2px solid #ffce00;
+  background-color: #000;
+  color: #fff;
+  border-left: 3px solid #ffcc00;
+  border-top-left-radius: 1.4rem;
+  border-bottom-left-radius: 1.4rem;
+  width: 87px;
 }
 
 .qty-box .qty-btn-container {
-    border: 1px solid #ffce00;
-    background: #000;
+  border: 2px solid #ffce00;
+  background: #000;
+  border-top-right-radius: 1.4rem;
+  border-bottom-right-radius: 1.4rem;
+  width: 50px;
 }
 
 .qty-box .qty-btn-container .qty-btn > .qty-sign{
@@ -272,11 +279,16 @@ body > #vue-app, body > #vue-error {
 }
 
 .custom-select{
-  background: #000;
+  background: url(https://www.lotu.de/images/arrow-bottom.png);
+  color: #fff;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-position-x: 87%;
+  background-size: 10px;
 }
 
 .input-unit {
-  border: 1px solid #ffce00;
+  border: 2px solid #ffce00;
   border-radius: 1.4rem;
 }
 
@@ -322,6 +334,19 @@ span.vat-porto-info.small.text-muted {
 
 .cmp-product-thumb .prices {
   padding-bottom: 1rem;
+}
+
+.availability_1, .availability_2 {
+  background-color: transparent;
+  color: #7ed321
+}
+
+.qty-box .qty-btn-container .qty-btn {
+  border-bottom: 1px solid #ffce00;
+}
+
+.qty-box .qty-btn-container .qty-btn:not(.disabled):hover {
+  background: transparent;
 }
 
 
