@@ -56,6 +56,7 @@ body {
   padding-left: 50px;
   padding-right: 50px;
   padding-bottom: 5px;
+  margin-top: 4rem;
 }
 
 .footer img {
@@ -351,8 +352,15 @@ span.vat-porto-info.small.text-muted {
   background: transparent;
 }
 
+.input-unit input[type], .input-unit textarea, .input-unit input:not([type="checkbox"]), .input-unit input:not([type="radio"]), .input-unit .input-unit-preview {
 
+  background-color: transparent;
+}
 
+.modal-content {
+  background-color: #222222;
+  border: 1px solid #ffce00;
+}
 
 
 
