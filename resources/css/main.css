@@ -105,6 +105,7 @@ body > #vue-app, body > #vue-error {
 
 .cmp-product-thumb .thumb-title, .cmp-product-thumb .price {
   color: #fff;
+  font-size: 100%;
 }
 
 .cmp-product-thumb .price {
@@ -286,9 +287,6 @@ body > #vue-app, body > #vue-error {
 
 .qty-box .qty-btn-container .qty-btn > .qty-sign{
   color: #fff;
-  font-size: 0.8rem;
-  vertical-align: middle;
-  clear: both;
 }
 
 .custom-select{
@@ -353,6 +351,9 @@ span.vat-porto-info.small.text-muted, .btn-labeled, .basket-preview .totals {
 
 .qty-box .qty-btn-container .qty-btn {
   border-bottom: 1px solid #ffce00;
+  font-size: 0.8rem;
+  vertical-align: middle;
+  clear: both;
 }
 
 .qty-box .qty-btn-container .qty-btn:not(.disabled):hover {
