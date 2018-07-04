@@ -234,13 +234,22 @@ body > #vue-app, body > #vue-error {
 }
 
 .page-link {
-  background-color: #000;
-  border: 1px solid #ffce00;
+  background-color: transparent;
+  border: none;
+}
+
+.page-link:focus, .page-link:hover {
+  background-color: transparent;
+  border-color: transparent;
 }
 
 .page-item.active .page-link, .page-item.active .page-link:focus, .page-item.active .page-link:hover {
-  background-color: #2e2e2e;
-  border-color: ##ffce00;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.page-item.disabled .page-link, .page-item.disabled .page-link:focus, .page-item.disabled .page-link:hover{
+  background-color: transparent;
 }
 
 .top-bar .controls-list .control-basket .toggle-basket-preview {
@@ -305,7 +314,11 @@ small, .small, .btn-labeled, .basket-preview .totals {
 }
 }
 
-
+span.vat-porto-info.small.text-muted {
+  font-size: 73%;
+  border-top: 1px solid #ffce00;
+  padding-top: 1px;
+}
 
 
 
