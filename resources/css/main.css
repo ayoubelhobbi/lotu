@@ -305,6 +305,7 @@ body > #vue-app, body > #vue-error {
 
 .input-unit label, .input-unit .input-unit-label {
   color: #fff;
+  /* color: #222222; */
 }
 
 .section-header {
@@ -435,6 +436,13 @@ div.col-md-5.single-rightside.m-t-1 > span.vat.small.text-muted {
   border-top: none;
 }
 
+.owl-carousel .owl-single-item-control {
+  color: #ffce00;
+}
+
+.cmp-contact {
+  color: #000;
+}
 
 /* Responsive -- Mobile*/
 .navbar-toggler {
