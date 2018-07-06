@@ -7,6 +7,7 @@ use Plenty\Plugin\Events\Dispatcher;
 use Plenty\Plugin\ServiceProvider;
 use Plenty\Plugin\Templates\Twig;
 use IO\Helper\TemplateContainer;
+use IO\Helper\ComponentContainer;
 
 class LotuServiceProvider extends ServiceProvider
 {
@@ -32,11 +33,13 @@ class LotuServiceProvider extends ServiceProvider
 			 }, 0);
 			 return false;
 
-			 $eventDispatcher->listen('IO.tpl.item', function (TemplateContainer $container)
-        {
-            $container->setTemplate('Lotu::Item.SingleItem');
-            return false;
-        }, self::PRIORITY);
+			 $eventDispatcher->listen('IO.Component.Import', function (ComponentContainer $container)
+			 {
+					 if ($container->getOriginComponentTemplate()=='Ceres::Item.Components.SingleItem')
+					 {
+							 $container->setNewComponentTemplate('Lotu::Item.SingleItem');
+					 }
+			 }, self::PRIORITY);
 	 }
 
 
