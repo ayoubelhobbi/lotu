@@ -50,7 +50,7 @@ body {
 /* CSS für den neuen Footer */
 
 .footer {
-  background: #222222;
+  background: ##ff0000;
   padding-top: 20px;
   color: #fff;
   padding-left: 50px;
@@ -306,7 +306,7 @@ body > #vue-app, body > #vue-error {
 .input-unit label, .input-unit .input-unit-label {
   color: #fff;
   /* color: #222222; */
-  
+
 }
 
 .section-header {
