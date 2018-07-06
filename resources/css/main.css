@@ -306,6 +306,7 @@ body > #vue-app, body > #vue-error {
 .input-unit label, .input-unit .input-unit-label {
   color: #fff;
   /* color: #222222; */
+  
 }
 
 .section-header {
