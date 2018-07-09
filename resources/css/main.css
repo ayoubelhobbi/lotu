@@ -311,6 +311,7 @@ body > #vue-app, body > #vue-error {
 
 .modal-body .input-unit {
   border: 1px solid #222222;
+  border-radius: 0;
 
 }
 
