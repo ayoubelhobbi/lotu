@@ -397,7 +397,13 @@ button.close {
 .top-bar .controls-list > li a:not(.btn) {
     padding: 0.5rem 0.8rem;
     display: inline-block;
-    color: #ffce00;
+}
+}
+
+@media (min-width: 768px) {
+.top-bar .controls-list > li a:not(.btn)[aria-expanded="true"], .top-bar .controls-list > li a:not(.btn):hover {
+    background-color: transparent;
+    color: #fff;
 }
 }
 
