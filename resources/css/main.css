@@ -368,14 +368,13 @@ span.vat-porto-info.small.text-muted, .btn-labeled, .basket-preview .totals, spa
 }
 
 .modal-content {
-  background-color: #222222;
-  border: 1px solid #ffce00;
+  background: url(https://www.lotu.de/images/background-popup.png);
+  border: 1px solid #222;
 }
 
 button.close {
   opacity: 1;
   text-shadow: none;
-  color: #fff;
   padding: none;
 }
 
