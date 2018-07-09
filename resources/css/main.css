@@ -452,6 +452,17 @@ div.col-md-5.single-rightside.m-t-1 > span.vat.small.text-muted {
   background: #222222;
 }
 
+.modal-title {
+    text-align: center;
+    color: #000;
+    font-family: 'akaChen', sans-serif;
+}
+
+.modal-footer a {
+  color: #000;
+  margin-left: 1rem;
+}
+
 
 
 
