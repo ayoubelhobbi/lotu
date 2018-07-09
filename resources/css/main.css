@@ -474,12 +474,18 @@ div.col-md-5.single-rightside.m-t-1 > span.vat.small.text-muted {
     font-family: 'akaChen', sans-serif;
 }
 
+.modal-body h1, .modal-body h2, .modal-body h3, .modal-body h4, .modal-body h5, .modal-body h6, .modal-body p {
+  color: #000000;
+}
+
 .modal-footer a {
   color: #000;
+  margin-left: 5px;
 }
 
 .modal-footer a:hover {
   opacity: 0.6;
+  color: #222222 !important;
 }
 
 
