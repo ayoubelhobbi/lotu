@@ -478,6 +478,10 @@ div.col-md-5.single-rightside.m-t-1 > span.vat.small.text-muted {
   color: #000000;
 }
 
+.popper h1, .popper h2, .popper h3, .popper h4, .popper h5, .popper h6, .popper p, .popper-content, .popper-title {
+  color: #000000;
+}
+
 .modal-footer a {
   color: #000;
   margin-left: 5px;
