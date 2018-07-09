@@ -470,7 +470,10 @@ div.col-md-5.single-rightside.m-t-1 > span.vat.small.text-muted {
 
 .modal-footer a {
   color: #000;
-  margin-left: 1rem;
+}
+
+.modal-footer a:hover {
+  opacity: 0.6;
 }
 
 
