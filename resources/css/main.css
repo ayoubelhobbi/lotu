@@ -309,6 +309,15 @@ body > #vue-app, body > #vue-error {
 
 }
 
+.modal-body .input-unit {
+  border: 1px solid #222222;
+
+}
+
+.modal-body .input-unit label, .modal-body .input-unit .input-unit-label {
+  color: #222222;
+}
+
 .section-header {
   background: none;
 }
