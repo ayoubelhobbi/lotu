@@ -233,6 +233,18 @@ body > #vue-app, body > #vue-error {
   opacity: 0.8;
 }
 
+.btn-primary:active, .btn-primary.active, .open > .btn-primary.dropdown-toggle {
+  color: #222222;
+  background-color: #ffce00;
+  border-color: #000;
+}
+
+.btn-primary:focus, .btn-primary.focus {
+  color: #222222;
+  background-color: #ffce00;
+  border-color: #000000;
+}
+
 .btn-outline-primary {
   color: #ffce00;
   border-color: #ffce00;
