@@ -525,7 +525,7 @@ div.col-md-5.single-rightside.m-t-1 > span.vat.small.text-muted {
 
 .cmp-hero .hero-main .carousel .carousel-inner .carousel-item .hero-category:hover h3, .cmp-hero .hero-main .carousel .carousel-inner .carousel-item .hero-category:hover h2, .cmp-hero .hero-main .carousel .carousel-inner .carousel-item .hero-category:hover h1 {
   opacity: 0.8;
-  color: #ffce00;
+  background: #ffce00;
 }
 
 @media (min-width: 992px) {
