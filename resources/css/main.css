@@ -534,6 +534,9 @@ div.col-md-5.single-rightside.m-t-1 > span.vat.small.text-muted {
 }
 }
 
+.card-header h5, .cmp-totals h3 {
+  color: #000;
+}
 
 
 
