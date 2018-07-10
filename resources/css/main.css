@@ -519,6 +519,19 @@ div.col-md-5.single-rightside.m-t-1 > span.vat.small.text-muted {
   color: #696969;
 }
 
+.cmp-hero .hero-main .carousel .carousel-inner .carousel-item .carousel-caption h3, .cmp-hero .hero-main .carousel .carousel-inner .carousel-item .carousel-caption h2, .cmp-hero .hero-main .carousel .carousel-inner .carousel-item .carousel-caption h1 {
+  background: #ffce00;
+}
+
+.cmp-hero .hero-main .carousel .carousel-inner .carousel-item .hero-category:hover h3, .cmp-hero .hero-main .carousel .carousel-inner .carousel-item .hero-category:hover h2, .cmp-hero .hero-main .carousel .carousel-inner .carousel-item .hero-category:hover h1 {
+  opacity: 0.8;
+}
+
+@media (min-width: 992px) {
+.cmp-hero .hero-main .carousel .carousel-control span:before {
+    color: #ffce00;
+}
+}
 
 
 
