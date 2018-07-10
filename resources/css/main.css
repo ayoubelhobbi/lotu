@@ -511,7 +511,7 @@ div.col-md-5.single-rightside.m-t-1 > span.vat.small.text-muted {
   color: #222222 !important;
 }
 
-#contact-form .input-unit,{
+#contact-form .input-unit {
   border: 1px solid #222222;
   border-radius: 0;
 }
@@ -566,7 +566,16 @@ div.col-md-5.single-rightside.m-t-1 > span.vat.small.text-muted {
   display: none;
 }
 
+@media (min-width: 544px) {
+body > #vue-app.open-right .wrapper-right, body > #vue-error.open-right .wrapper-right {
+    width: 30em;
+    background: #222222;
+}
+}
 
+.basket-item-container .qty-box .qty-input {
+  width: 48px;
+}
 
 
 
