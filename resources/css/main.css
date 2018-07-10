@@ -219,18 +219,18 @@ body > #vue-app, body > #vue-error {
 }
 
 .btn-primary {
-  color: #000;
-  background-color: #ffce00;
+  color: #000 !important;
+  background-color: #ffce00 !important;
   border-color: #ffce00;
   border-radius: 1.4rem;
   font-family: 'akaChen', sans-serif !important;
 }
 
 .btn-primary:hover {
-  color: #222222;
-  background-color: #ffce00;
-  border-color: #000;
-  opacity: 0.8;
+  color: #222222 !important;
+  background-color: #ffce00 !important;
+  border-color: #000 !important;
+  opacity: 0.8 !important;
 }
 
 .btn-primary:active, .btn-primary.active, .open > .btn-primary.dropdown-toggle {
@@ -542,6 +542,10 @@ div.col-md-5.single-rightside.m-t-1 > span.vat.small.text-muted {
   color: #222222;
 }
 
+.payment-link-style {
+  color: #ffce00 !important;
+  font-weight: bold;
+}
 
 
 
