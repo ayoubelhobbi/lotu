@@ -568,7 +568,6 @@ div.col-md-5.single-rightside.m-t-1 > span.vat.small.text-muted {
 
 @media (min-width: 544px) {
 body > #vue-app.open-right .wrapper-right, body > #vue-error.open-right .wrapper-right {
-    width: 30em;
     background: #222222;
 }
 }
@@ -577,6 +576,9 @@ body > #vue-app.open-right .wrapper-right, body > #vue-error.open-right .wrapper
   width: 48px;
 }
 
+span.vat-porto-info.small.text-muted, .btn-labeled, .basket-preview .totals, span.vat.small.text-muted {
+    background: #222222;
+}
 
 
 
