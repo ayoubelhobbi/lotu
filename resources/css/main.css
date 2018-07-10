@@ -509,10 +509,19 @@ div.col-md-5.single-rightside.m-t-1 > span.vat.small.text-muted {
   color: #222222 !important;
 }
 
-#contact-form .input-unit {
+#contact-form .input-unit,{
   border: 1px solid #222222;
   border-radius: 0;
 }
+
+ .login-container .input-unit {
+   border: 1px solid #dcdbd8;
+   border-radius: 0;
+ }
+
+.login-container .input-unit label {
+ color: #b2b1a7;
+ }
 
 #contact-form .input-unit label {
 
