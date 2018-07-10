@@ -547,8 +547,9 @@ div.col-md-5.single-rightside.m-t-1 > span.vat.small.text-muted {
   font-weight: bold;
 }
 
-
-
+.single-rightside hr:nth-child(3) {
+  display: none;
+}
 
 
 
