@@ -185,6 +185,10 @@ body > #vue-app, body > #vue-error {
   color: #fff;
 }
 
+.top-bar .controls-list .control-basket .toggle-basket-preview .badge {
+  margin-left: 0;
+}
+
 .top-bar .controls-list .control-basket .toggle-basket-preview {
   background-color: transparent;
 }
@@ -223,10 +227,10 @@ body > #vue-app, body > #vue-error {
 }
 
 .btn-primary:hover {
-    color: #fff;
-    background-color: #ffce00;
-    border-color: #000;
-    opacity: 0.9;
+  color: #222222;
+  background-color: #ffce00;
+  border-color: #000;
+  opacity: 0.8;
 }
 
 .btn-outline-primary {
@@ -499,7 +503,8 @@ div.col-md-5.single-rightside.m-t-1 > span.vat.small.text-muted {
 }
 
 #contact-form .input-unit label {
-  color: #222222;
+
+  color: #696969;
 }
 
 
