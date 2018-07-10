@@ -362,7 +362,6 @@ span.vat-porto-info.small.text-muted, .btn-labeled, .basket-preview .totals, spa
 }
 
 .qty-box .qty-btn-container .qty-btn {
-  border-bottom: 1px solid #ffce00;
   font-size: 0.8rem;
   vertical-align: middle;
   clear: both;
@@ -447,6 +446,12 @@ nav.navbar.megamenu #mainNavbarCollapsable ul.mainmenu > li > ul.collapse {
 }
 }
 
+@media (min-width: 768px) {
+.anicon.anicon-search-xcross[aria-expanded="false"]:hover > .anicon-search-item:after {
+  background: #ffce00;
+
+}
+
 div.col-md-5.single-rightside.m-t-1 > span.vat.small.text-muted {
   border-top: none;
 }
@@ -492,9 +497,14 @@ div.col-md-5.single-rightside.m-t-1 > span.vat.small.text-muted {
   color: #222222 !important;
 }
 
+#contact-form .input-unit {
+  border: 1px solid #222222;
+  border-radius: 0;
+}
 
-
-
+#contact-form .input-unit label {
+  color: #222222;
+}
 
 
 
