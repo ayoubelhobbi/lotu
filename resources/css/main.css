@@ -383,10 +383,12 @@ span.vat-porto-info.small.text-muted, .btn-labeled, .basket-preview .totals, spa
   background: transparent;
 }
 
+/*
 .input-unit input[type], .input-unit textarea, .input-unit input:not([type="checkbox"]), .input-unit input:not([type="radio"]), .input-unit .input-unit-preview {
 
   background-color: transparent;
 }
+*/
 
 .modal-content {
   background: url(https://www.lotu.de/images/background-popup.png);
@@ -521,11 +523,15 @@ div.col-md-5.single-rightside.m-t-1 > span.vat.small.text-muted {
 
 .login-container .input-unit label {
  color: #b2b1a7;
+ -webkit-font-smoothing: unset;
+ -moz-osx-font-smoothing: unset;
  }
 
 #contact-form .input-unit label {
 
   color: #696969;
+  -webkit-font-smoothing: unset;
+  -moz-osx-font-smoothing: unset;
 }
 
 .cmp-hero .hero-main .carousel .carousel-inner .carousel-item .carousel-caption h3, .cmp-hero .hero-main .carousel .carousel-inner .carousel-item .carousel-caption h2, .cmp-hero .hero-main .carousel .carousel-inner .carousel-item .carousel-caption h1 {
