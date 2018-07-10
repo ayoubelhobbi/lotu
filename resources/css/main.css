@@ -263,10 +263,6 @@ body > #vue-app, body > #vue-error {
   background-color: transparent;
 }
 
-.top-bar .controls-list .control-basket .toggle-basket-preview {
-  color: #ffce00;
-}
-
 .qty-box .qty-input {
   border: 2px solid #ffce00;
   background-color: #000;
