@@ -327,6 +327,11 @@ body > #vue-app, body > #vue-error {
 
 }
 
+.modal-body .custom-select {
+  background: #ffffff;
+  color: #222222;
+}
+
 .modal-body .input-unit label, .modal-body .input-unit .input-unit-label {
   color: #222222;
 }
@@ -579,7 +584,6 @@ body > #vue-app.open-right .wrapper-right, body > #vue-error.open-right .wrapper
 span.vat-porto-info.small.text-muted, .btn-labeled, .basket-preview .totals, span.vat.small.text-muted {
     background: #222222;
 }
-
 
 
 
