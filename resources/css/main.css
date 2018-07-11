@@ -588,7 +588,9 @@ span.vat-porto-info.small.text-muted, .btn-labeled, .basket-preview .totals, spa
     background: #222222;
 }
 
-
+.meta-container a {
+  color: #222222;
+}
 
 
 
