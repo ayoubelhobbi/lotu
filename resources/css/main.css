@@ -590,14 +590,19 @@ span.vat-porto-info.small.text-muted, .btn-labeled, .basket-preview .totals, spa
 
 .meta-container a {
   color: #222222;
+  font-family: "akaChen", sans-serif;
+  font-size: 100% !important;
 }
 
 .qty-box .qty-input:focus {
   background: #222222;
   opacity: 0.8;
+  font-size: 100% !important;
 }
 
-
+.cmp-totals .h3 {
+  font-family: "akaChen", sans-serif;
+}
 
 
 
