@@ -253,7 +253,7 @@ body > #vue-app, body > #vue-error {
 
 .btn-outline-primary:hover {
   color: #000;
-  background-color: #ffce00;
+  background-color: transparent;
   border-color: #FFCE02;
   opacity: 0.7;
 }
