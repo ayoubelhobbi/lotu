@@ -584,6 +584,10 @@ body > #vue-app.open-right .wrapper-right, body > #vue-error.open-right .wrapper
   width: 48px;
 }
 
+.basket-item-container a {
+  color: #fff;
+}
+
 span.vat-porto-info.small.text-muted, .btn-labeled, .basket-preview .totals, span.vat.small.text-muted {
     background: #222222;
 }
@@ -591,13 +595,11 @@ span.vat-porto-info.small.text-muted, .btn-labeled, .basket-preview .totals, spa
 .meta-container a {
   color: #222222;
   font-family: "akaChen", sans-serif;
-  font-size: 100% !important;
 }
 
 .qty-box .qty-input:focus {
   background: #222222;
   opacity: 0.8;
-  font-size: 100% !important;
 }
 
 .cmp-totals .h3 {
