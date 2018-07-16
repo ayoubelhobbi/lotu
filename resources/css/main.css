@@ -627,6 +627,16 @@ span.vat-porto-info.small.text-muted, .btn-labeled, .basket-preview .totals, spa
 }
 }
 
+.widget-image-carousel.widget-primary .carousel-control .fa {
+  color: #ffce00;
+}
+
+.widget-item-list.widget-primary .widget-caption {
+  background-color: transparent;
+}
+
+
+
 
 
 
