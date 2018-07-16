@@ -218,6 +218,10 @@ body > #vue-app, body > #vue-error {
   font-size: 3rem;
 }
 
+.btn-secondary {
+  border-radius: 4rem;
+}
+
 .btn-primary {
   color: #000 !important;
   background-color: #ffce00 !important;
