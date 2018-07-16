@@ -635,6 +635,11 @@ span.vat-porto-info.small.text-muted, .btn-labeled, .basket-preview .totals, spa
   background-color: transparent;
 }
 
+.widget-image-carousel.widget-primary:hover .widget-caption h2, .widget-image-carousel.widget-primary:hover .widget-caption .h2 {
+  background-color: transparent;
+  color: #ffce00;
+}
+
 
 
 
