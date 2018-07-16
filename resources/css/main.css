@@ -610,6 +610,22 @@ span.vat-porto-info.small.text-muted, .btn-labeled, .basket-preview .totals, spa
   font-family: "akaChen", sans-serif;
 }
 
+.widget-image-carousel.widget-primary .widget-caption h2, .widget-image-carousel.widget-primary .widget-caption .h2 {
+
+  color: #000;
+  background-color: transparent;
+  width: 47rem;
+  position: relative;
+  bottom: 4rem;
+  right: 0;
+}
+
+@media (min-width: 768px) {
+.widget-image-carousel .widget-inner .widget-caption h2, .widget-image-carousel .widget-inner .widget-caption .h2 {
+    font-size: 3rem;
+    float: left;
+}
+}
 
 
 
