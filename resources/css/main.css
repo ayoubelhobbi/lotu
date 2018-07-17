@@ -640,7 +640,13 @@ span.vat-porto-info.small.text-muted, .btn-labeled, .basket-preview .totals, spa
   color: #ffce00;
 }
 
+.basket-item-container-right .qty-box .qty-btn-container {
+  border: 1px solid #ffce00;
+}
 
+.basket-item-container-right .qty-box .qty-input {
+  border: 1px solid #ffce00;
+}
 
 
 .services_versand .service1 {
