@@ -614,7 +614,7 @@ span.vat-porto-info.small.text-muted, .btn-labeled, .basket-preview .totals, spa
 
   color: #000;
   background-color: transparent;
-  width: 47rem;
+  width: 36rem;
   position: relative;
   bottom: 4rem;
   right: 0;
@@ -622,7 +622,7 @@ span.vat-porto-info.small.text-muted, .btn-labeled, .basket-preview .totals, spa
 
 @media (min-width: 768px) {
 .widget-image-carousel .widget-inner .widget-caption h2, .widget-image-carousel .widget-inner .widget-caption .h2 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     float: left;
 }
 }
@@ -639,6 +639,24 @@ span.vat-porto-info.small.text-muted, .btn-labeled, .basket-preview .totals, spa
   background-color: transparent;
   color: #ffce00;
 }
+
+
+
+
+.services_versand .service1 {
+  background-color: #222222;
+  padding: 1rem;
+  margin: 1rem;
+  color: #ffce00;
+}
+
+.services_versand img {
+  float: left;
+  margin-right: 1rem;
+  width: 64px;
+}
+
+
 
 
 
