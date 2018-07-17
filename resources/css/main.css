@@ -648,6 +648,14 @@ span.vat-porto-info.small.text-muted, .btn-labeled, .basket-preview .totals, spa
   border: 1px solid #ffce00;
 }
 
+.basket h1 {
+  color: #fff;
+}
+
+.basket-small a {
+    color: #fff;
+}
+
 
 .services_versand .service1 {
   background-color: #222222;
