@@ -670,6 +670,20 @@ span.vat-porto-info.small.text-muted, .btn-labeled, .basket-preview .totals, spa
   font-weight: 100;
 }
 
+.tab-content {
+    background-color: #fff;
+    color: #222222;
+    padding: 3rem;
+}
+
+@media (min-width: 768px) {
+.single .nav-tabs .nav-item .nav-link {
+    border: none;
+    background-color: #515151;
+    border-top-right-radius: 2rem;
+}
+}
+
 
 
 .services_versand .service1 {
