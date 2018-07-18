@@ -666,6 +666,11 @@ span.vat-porto-info.small.text-muted, .btn-labeled, .basket-preview .totals, spa
   background-color: #ffce00;
 }
 
+.basket-item-container .basket-item .meta-container-wrapper .meta-container-wrapper-inner .meta-container .item-name {
+  font-weight: 100;
+}
+
+
 
 .services_versand .service1 {
   background-color: #222222;
