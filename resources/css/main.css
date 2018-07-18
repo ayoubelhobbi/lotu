@@ -121,10 +121,6 @@ body > #vue-app, body > #vue-error {
   color: #fff;
 }
 
-.wrapper-main #page-body {
-  background-color: #000;
-}
-
 .container-max {
   background-color: transparent;
 }
@@ -684,6 +680,11 @@ span.vat-porto-info.small.text-muted, .btn-labeled, .basket-preview .totals, spa
 }
 }
 
+.top-bar {
+  position: relative;
+
+}
+
 
 
 .services_versand .service1 {
@@ -1063,8 +1064,9 @@ button.btn.btn-block.btn-default {
 }
 
 .wrapper-main #page-body {
-    margin-top: 155px;
+    margin-top: 0px;
     background: transparent;
+    background-color: #000;
 }
 
 .owl-thumbs .owl-thumb {
