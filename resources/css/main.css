@@ -669,7 +669,7 @@ span.vat-porto-info.small.text-muted, .btn-labeled, .basket-preview .totals, spa
 .tab-content {
     background-color: #fff;
     color: #222222;
-    padding: 3rem;
+    padding: 2rem;
 }
 
 @media (min-width: 768px) {
