@@ -158,7 +158,7 @@
                             <div class="tab-pane active" :id="'details-' + currentVariation.variation.id" role="tabpanel" v-if="isDescriptionTabActive">
                               <div class="youtubeVideo">
                                 <div class="videoWrapper1">
-                                <iframe v-for="(merk, index) in currentVariation.properties" width="100%" height="380" v-bind:src="merk.texts.value" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                                <iframe v-for="(merk, index) in currentVariation.properties" width="100%" height="355" v-bind:src="merk.texts.value" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                                 </div>
                               </div>
                               <div class="m-y-2" v-html="currentVariation.texts.description"></div>
