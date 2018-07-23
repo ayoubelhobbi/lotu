@@ -41,6 +41,10 @@
                         </span>
                     </div>
 
+                    {% if contactClass == 2 %}
+                      <span v-if="currentVariation.stock.net !== 0" :class="'availability tag availability_' + currentVariation.variation.availability.id">Noch <b>${ currentVariation.stock.net } verfügbar</b></span>
+                    {% endif %}
+
                     <!-- Variation -->
                     <div class="row m-b-1" v-if="variations.length > 0">
                         <variation-select template="#vue-variation-select" :attributes="attributeNameMap" :variations="variations" :preselect="currentVariation.variation.id" @is-valid-change="isVariationSelected = $event"></variation-select>
