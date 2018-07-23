@@ -1,12 +1,10 @@
 {% set itemData = config("Ceres.item.data") | split(', ') %}
 {% set enabledRoutes = config("IO.routing.enabled_routes") | split(', ') %}
 {% set shippingCat = config("Ceres.global.shippingCostsCategoryId") %}
-{% set contactClass = services.customer.getContactClassId() %}
+{% set contactClass = config("global.default_contact_class_b2b") %}
 
 <script type="x/template" id="vue-single-item">
     <div>
-    <h2>Das ist ein Beispiel eines Titels</h2>
-
         <div class="single container-max page-content">
             <div class="row m-t-3">
                 <div class="col-md-7 single-leftside">
