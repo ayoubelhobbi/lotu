@@ -31,7 +31,6 @@ class LotuServiceProvider extends ServiceProvider
 			 {
 					$partial->set('footer', 'Lotu::ThemeFooter');
 			 }, 0);
-			 return false;
 
 			 $eventDispatcher->listen('IO.Component.Import', function (ComponentContainer $container)
 			 {
