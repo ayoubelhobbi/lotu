@@ -411,7 +411,8 @@ button.close {
 
 .availability_5 {
   background: transparent;
-  color: #d9534f;
+  color: #ed240f;
+  font-weight: 500;
 }
 
 @media (min-width: 768px) {
