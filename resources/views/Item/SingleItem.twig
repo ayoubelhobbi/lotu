@@ -38,12 +38,15 @@
                         <span class="articlenumber small text-muted">
                             <b>{{ trans("Ceres::Template.singleItemNumber") }}</b>
                             <span>${ currentVariation.variation.number }</span>
+
+                            {% if contactClass == 2 %}
+                              <span v-if="currentVariation.stock.net !== 0" :class="'availability tag availability_' + currentVariation.variation.availability.id">Noch <b>${ currentVariation.stock.net } verfügbar</b></span>
+                            {% endif %}
+
                         </span>
                     </div>
 
-                    {% if contactClass == 2 %}
-                      <span v-if="currentVariation.stock.net !== 0" :class="'availability tag availability_' + currentVariation.variation.availability.id">Noch <b>${ currentVariation.stock.net } verfügbar</b></span>
-                    {% endif %}
+
 
                     <!-- Variation -->
                     <div class="row m-b-1" v-if="variations.length > 0">
