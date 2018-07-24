@@ -26,6 +26,7 @@
                             ${ currentVariation | itemName }
                         </span>
                     </h1>
+                  <p> Kundenklasse: {{contactClass}}</p>
 
                     {% if ('item.shortDescription' in itemData or 'all' in itemData)%}
                         <p class="single-description" v-if="currentVariation.texts.shortDescription !== ''" v-html="currentVariation.texts.shortDescription"></p>
@@ -39,7 +40,7 @@
                             <span>${ currentVariation.variation.number }</span>
 
 
-                            
+
 
 
                         </span>
