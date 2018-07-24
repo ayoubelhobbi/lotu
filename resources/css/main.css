@@ -193,13 +193,6 @@ body > #vue-app, body > #vue-error {
   background-color: transparent;
 }
 
-@media (min-width: 768px) {
-.top-bar .controls-list > li a:not(.btn)[aria-expanded="true"], .top-bar .controls-list > li a:not(.btn):hover {
-    background-color: #008ebd;
-    color: #fff;
-}
-}
-
 .cmp-product-thumb .add-to-basket-lg-container {
   border-color: transparent #ffce00 transparent transparent;
 }
@@ -348,23 +341,6 @@ body > #vue-app, body > #vue-error {
   font-size: 3rem;
 }
 
-@media (min-width: 1200px){
-  .parallax-img-container .parallax-text-wrapper {
-    /* margin-left: 20px;
-    margin-right: -15px;
-     background-position: right top;
-    background-image: url(https://image.flaticon.com/icons/svg/987/987941.svg);
-    background-repeat: no-repeat;*/
-    padding-top: 3rem;
-    padding-left: 1rem;
-  }
-}
-
-@media (min-width: 544px) {
-.cmp-product-thumb .thumb-content {
-    padding: 1.3rem;
-}
-}
 
 span.vat-porto-info.small.text-muted, .btn-labeled, .basket-preview .totals, span.vat.small.text-muted {
   font-size: 73%;
@@ -415,65 +391,6 @@ button.close {
   font-weight: 500;
 }
 
-@media (min-width: 768px) {
-.top-bar .controls-list > li a:not(.btn) {
-    padding: 0.5rem 0.8rem;
-    display: inline-block;
-}
-}
-
-@media (min-width: 768px) {
-.top-bar .controls-list > li a:not(.btn)[aria-expanded="true"], .top-bar .controls-list > li a:not(.btn):hover {
-    background-color: transparent;
-    color: #fff;
-}
-}
-
-@media (min-width: 992px) {
-.no-touch nav.navbar.megamenu #mainNavbarCollapsable ul.mainmenu > li:hover, .touch nav.navbar.megamenu #mainNavbarCollapsable ul.mainmenu > li.hover {
-    background: transparent;
-    color: #fff !important;
-}
-}
-
-@media (min-width: 992px){
-nav.navbar.megamenu #mainNavbarCollapsable ul.mainmenu > li > ul.collapse > li.level1 > a {
-    color: #ffce00;
-    font-weight: bold;
-}
-}
-
-@media (min-width: 992px){
-nav.navbar.megamenu #mainNavbarCollapsable ul.mainmenu > li > ul.collapse > li a {
-  background: #222222;
-  color: #fff;
-}
-}
-
-@media (min-width: 992px){
-nav.navbar.megamenu #mainNavbarCollapsable ul.mainmenu > li > ul.collapse {
-  background-color: #222222;
-}
-}
-
-@media (min-width: 992px) {
-.no-touch nav.navbar.megamenu #mainNavbarCollapsable ul.mainmenu > li > ul.collapse > li:hover, .touch nav.navbar.megamenu #mainNavbarCollapsable ul.mainmenu > li > ul.collapse > li.hover{
-  background: transparent;
-}
-}
-
-@media (min-width: 992px) {
-.no-touch nav.navbar.megamenu #mainNavbarCollapsable ul.mainmenu > li > ul.collapse > li a:hover, .touch nav.navbar.megamenu #mainNavbarCollapsable ul.mainmenu > li > ul.collapse > li a.hover{
-  color: #ffce00 !important;
-  background: transparent;
-}
-}
-
-@media (min-width: 768px) {
-.anicon.anicon-search-xcross[aria-expanded="false"]:hover > .anicon-search-item:after {
-  background: #ffce00;
-
-}
 
 div.col-md-5.single-rightside.m-t-1 > span.vat.small.text-muted {
   border-top: none;
@@ -552,11 +469,6 @@ div.col-md-5.single-rightside.m-t-1 > span.vat.small.text-muted {
   background: #ffce00;
 }
 
-@media (min-width: 992px) {
-.cmp-hero .hero-main .carousel .carousel-control span:before {
-    color: #ffce00;
-}
-}
 
 .card-header h5, .cmp-totals h3 {
   color: #000;
@@ -575,11 +487,6 @@ div.col-md-5.single-rightside.m-t-1 > span.vat.small.text-muted {
   display: none;
 }
 
-@media (min-width: 544px) {
-body > #vue-app.open-right .wrapper-right, body > #vue-error.open-right .wrapper-right {
-    background: #222222;
-}
-}
 
 .basket-item-container .qty-box .qty-input {
   width: 48px;
@@ -615,13 +522,6 @@ span.vat-porto-info.small.text-muted, .btn-labeled, .basket-preview .totals, spa
   position: relative;
   bottom: 4rem;
   right: 0;
-}
-
-@media (min-width: 768px) {
-.widget-image-carousel .widget-inner .widget-caption h2, .widget-image-carousel .widget-inner .widget-caption .h2 {
-    font-size: 2rem;
-    float: left;
-}
 }
 
 .widget-image-carousel.widget-primary .carousel-control .fa {
@@ -673,13 +573,6 @@ span.vat-porto-info.small.text-muted, .btn-labeled, .basket-preview .totals, spa
     padding: 2rem;
 }
 
-@media (min-width: 768px) {
-.single .nav-tabs .nav-item .nav-link {
-    border: none;
-    background-color: #515151;
-    border-top-right-radius: 2rem;
-}
-}
 
 .nav-tabs {
   border-bottom: none;
@@ -706,6 +599,9 @@ span.vat-porto-info.small.text-muted, .btn-labeled, .basket-preview .totals, spa
 .verfuegbare_menge {
   color: #7ed321;
 }
+
+
+
 
 
 
@@ -777,11 +673,7 @@ button.btn.btn-block.btn-default {
  }
 
 
-@media (min-width: 900px) {
-  .background {
-    padding: 0 0 25px;
-  }
-}
+
 
 .PricingContainer {
       margin: 0 auto;
@@ -813,11 +705,7 @@ button.btn.btn-block.btn-default {
   flex-direction: column;
 }
 
-@media (min-width: 900px) {
-  .pricing-table {
-    flex-direction: row;
-  }
-}
+
 
 .pricing-table * {
   text-align: center;
@@ -840,19 +728,6 @@ button.btn.btn-block.btn-default {
     margin: 40px auto;
     position: relative;
  }
-
-@media (min-width: 900px) {
-  .pricing-plan {
-    border-bottom: none;
-    border-right: 1px solid #e1f1ff;
-    flex-basis: 100%;
-    padding: 25px 50px;
-  }
-
-  .pricing-plan:last-child {
-    border-right: none;
-  }
-}
 
 .pricing-img {
   margin-bottom: 25px;
@@ -1010,60 +885,6 @@ button.btn.btn-block.btn-default {
 	padding: 30px;
 	}
 
-@media only screen and (max-width: 500px)
- {
-
-.youtubeVideo iframe {
-	width: 100%;
-}
-
-.navbar-brand img {
-	max-height: 4rem;
-}
-
-.wrapper-main .navbar {
-	padding: 1px 1px 1px 1px !important;
-}
-
-}
-
-@media (min-width: 1200px) {
-#single-carousel .owl-item img {
-    height: auto;
-}
-}
-
-@media (min-width: 992px) {
-#single-carousel .owl-item img {
-    height: auto;
-}
-}
-
-@media (min-width: 544px){
-#single-carousel .owl-item img {
-    height: auto;
-}
-
-
-}
-
-@media (min-width: ){
-#single-carousel .owl-item img {
-   height: auto;
-}
-}
-
-@media (min-width: 992px) {
-.wrapper-main > nav.container-max {
-    top: 125px;
-}
-}
-
-@media (min-width: 768px) {
-.wrapper-main>nav.container-max {
-    top: 130px;
-}
-}
 
 .wrapper-main .navbar {
 	padding: 21px 0 21px 0;
@@ -1085,4 +906,197 @@ button.btn.btn-block.btn-default {
 .square-container {
 
 	padding-bottom: 66%;
+}
+
+@media (min-width: 900px) {
+  .pricing-table {
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 768px) {
+.top-bar .controls-list > li a:not(.btn)[aria-expanded="true"], .top-bar .controls-list > li a:not(.btn):hover {
+    background-color: #008ebd;
+    color: #fff;
+}
+}
+
+
+@media only screen and (max-width: 500px){
+
+  .youtubeVideo iframe {
+  	width: 100%;
+  }
+
+  .navbar-brand img {
+  	max-height: 4rem;
+  }
+
+  .wrapper-main .navbar {
+  	padding: 1px 1px 1px 1px !important;
+  }
+
+}
+
+
+@media (min-width: 1200px) {
+#single-carousel .owl-item img {
+    height: auto;
+}
+}
+
+@media (min-width: 992px) {
+#single-carousel .owl-item img {
+    height: auto;
+}
+}
+
+@media (min-width: 544px){
+#single-carousel .owl-item img {
+    height: auto;
+}
+}
+
+@media (min-width: ){
+#single-carousel .owl-item img {
+   height: auto;
+}
+}
+
+@media (min-width: 992px) {
+.wrapper-main > nav.container-max {
+    top: 125px;
+}
+}
+
+@media (min-width: 768px) {
+.wrapper-main>nav.container-max {
+    top: 130px;
+}
+}
+
+@media (min-width: 768px) {
+.single .nav-tabs .nav-item .nav-link {
+    border: none;
+    background-color: #515151;
+    border-top-right-radius: 2rem;
+}
+}
+
+@media (min-width: 900px) {
+  .pricing-plan {
+    border-bottom: none;
+    border-right: 1px solid #e1f1ff;
+    flex-basis: 100%;
+    padding: 25px 50px;
+  }
+
+  .pricing-plan:last-child {
+    border-right: none;
+  }
+}
+
+@media (min-width: 1200px){
+  .parallax-img-container .parallax-text-wrapper {
+    /* margin-left: 20px;
+    margin-right: -15px;
+     background-position: right top;
+    background-image: url(https://image.flaticon.com/icons/svg/987/987941.svg);
+    background-repeat: no-repeat;*/
+    padding-top: 3rem;
+    padding-left: 1rem;
+  }
+}
+
+@media (min-width: 544px) {
+.cmp-product-thumb .thumb-content {
+    padding: 1.3rem;
+}
+}
+
+@media (min-width: 544px) {
+body > #vue-app.open-right .wrapper-right, body > #vue-error.open-right .wrapper-right {
+    background: #222222;
+}
+}
+
+@media (min-width: 900px) {
+  .background {
+    padding: 0 0 25px;
+  }
+}
+
+@media (min-width: 768px) {
+.widget-image-carousel .widget-inner .widget-caption h2, .widget-image-carousel .widget-inner .widget-caption .h2 {
+    font-size: 2rem;
+    float: left;
+}
+}
+
+
+@media (min-width: 768px) {
+.top-bar .controls-list > li a:not(.btn) {
+    padding: 0.5rem 0.8rem;
+    display: inline-block;
+}
+}
+
+@media (min-width: 768px) {
+.top-bar .controls-list > li a:not(.btn)[aria-expanded="true"], .top-bar .controls-list > li a:not(.btn):hover {
+    background-color: transparent;
+    color: #fff;
+}
+}
+
+@media (min-width: 992px) {
+.no-touch nav.navbar.megamenu #mainNavbarCollapsable ul.mainmenu > li:hover, .touch nav.navbar.megamenu #mainNavbarCollapsable ul.mainmenu > li.hover {
+    background: transparent;
+    color: #fff !important;
+}
+}
+
+@media (min-width: 992px){
+nav.navbar.megamenu #mainNavbarCollapsable ul.mainmenu > li > ul.collapse > li.level1 > a {
+    color: #ffce00;
+    font-weight: bold;
+}
+}
+
+@media (min-width: 992px){
+nav.navbar.megamenu #mainNavbarCollapsable ul.mainmenu > li > ul.collapse > li a {
+  background: #222222;
+  color: #fff;
+}
+}
+
+@media (min-width: 992px){
+nav.navbar.megamenu #mainNavbarCollapsable ul.mainmenu > li > ul.collapse {
+  background-color: #222222;
+}
+}
+
+@media (min-width: 992px) {
+.no-touch nav.navbar.megamenu #mainNavbarCollapsable ul.mainmenu > li > ul.collapse > li:hover, .touch nav.navbar.megamenu #mainNavbarCollapsable ul.mainmenu > li > ul.collapse > li.hover{
+  background: transparent;
+}
+}
+
+@media (min-width: 992px) {
+.no-touch nav.navbar.megamenu #mainNavbarCollapsable ul.mainmenu > li > ul.collapse > li a:hover, .touch nav.navbar.megamenu #mainNavbarCollapsable ul.mainmenu > li > ul.collapse > li a.hover{
+  color: #ffce00 !important;
+  background: transparent;
+}
+}
+
+@media (min-width: 768px) {
+.anicon.anicon-search-xcross[aria-expanded="false"]:hover > .anicon-search-item:after {
+  background: #ffce00;
+
+}
+}
+
+@media (min-width: 992px) {
+.cmp-hero .hero-main .carousel .carousel-control span:before {
+    color: #ffce00;
+}
 }
