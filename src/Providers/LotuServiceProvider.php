@@ -8,6 +8,9 @@ use Plenty\Plugin\ServiceProvider;
 use Plenty\Plugin\Templates\Twig;
 use IO\Helper\TemplateContainer;
 use IO\Helper\ComponentContainer;
+use IO\Services\ItemSearch\Helper\ResultFieldTemplate;
+
+
 
 class LotuServiceProvider extends ServiceProvider
 {
@@ -39,6 +42,13 @@ class LotuServiceProvider extends ServiceProvider
 							 $container->setNewComponentTemplate('Lotu::Item.SingleItem');
 					 }
 			 }, self::PRIORITY);
+
+			 $eventDispatcher->listen( 'IO.ResultFields.*', function(ResultFieldTemplate $templateContainer) {
+       $templateContainer->setTemplates([
+           ResultFieldTemplate::TEMPLATE_SINGLE_ITEM   => 'Lotu::ResultFields.SingleItemWrapper'
+       ]);
+   		}, 0);
+
 	 }
 
 
