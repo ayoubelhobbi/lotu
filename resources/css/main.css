@@ -699,6 +699,10 @@ span.vat-porto-info.small.text-muted, .btn-labeled, .basket-preview .totals, spa
   width: 64px;
 }
 
+.page-not-found .default-not-found {
+  background-color: transparent;
+}
+
 
 
 

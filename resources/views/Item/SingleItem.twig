@@ -2,6 +2,7 @@
 {% set enabledRoutes = config("IO.routing.enabled_routes") | split(', ') %}
 {% set shippingCat = config("Ceres.global.shippingCostsCategoryId") %}
 {% set contactClass = config("global.default_contact_class_b2b") %}
+{% set contactClass = services.customer.getContactClassId() %}
 
 <script type="x/template" id="vue-single-item">
     <div>
@@ -39,8 +40,6 @@
                             <span>${ currentVariation.variation.number }</span>
                         </span>
                     </div>
-
-
 
                     {% if contactClass == 2 %}
                       <span v-if="currentVariation.stock.net !== 0" :class="'availability tag availability_' + currentVariation.variation.availability.id">Noch <b>${ currentVariation.stock.net } verfügbar</b></span>
