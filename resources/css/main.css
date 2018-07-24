@@ -703,6 +703,9 @@ span.vat-porto-info.small.text-muted, .btn-labeled, .basket-preview .totals, spa
   background-color: transparent;
 }
 
+.verfuegbare_menge {
+  color: #7ed321;
+}
 
 
 
