@@ -41,7 +41,7 @@
 
                             {% if contactClass == 2 %}
 
-                              <span v-if="currentVariation.stock.net !== 0" class="verfuegbare_menge"> | Noch <b>${ currentVariation.stock.net } verfügbar</b></span>
+                              --- <span v-if="currentVariation.stock.net !== 0" class="verfuegbare_menge"> Noch <b>${ currentVariation.stock.net } verfügbar</b></span>
 
                             {% endif %}
                         </span>
