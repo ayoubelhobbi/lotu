@@ -2,7 +2,7 @@
 {% set enabledRoutes = config("IO.routing.enabled_routes") | split(', ') %}
 {% set shippingCat = config("Ceres.global.shippingCostsCategoryId") %}
 {% set contactClass = config("global.default_contact_class_b2b") %}
-{% set contactClass = services.customer.getContactClassId() %}
+
 
 <script type="x/template" id="vue-single-item">
     <div>
