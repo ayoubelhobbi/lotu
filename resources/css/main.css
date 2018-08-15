@@ -899,6 +899,10 @@ button.btn.btn-block.btn-default {
 	height: 6.16rem;
 }
 
+.owl-thumbs .owl-thumb.active, .owl-thumbs .owl-thumb:hover {
+  border: 1px solid #ffce00;
+}
+
 #dhlWunschpaket {
 	padding: 25px;
 }
