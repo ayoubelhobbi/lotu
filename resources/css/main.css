@@ -1113,3 +1113,15 @@ nav.navbar.megamenu #mainNavbarCollapsable ul.mainmenu > li > ul.collapse {
     color: #ffce00;
 }
 }
+
+@media (min-width: 768px) {
+.single .nav-tabs .nav-item .nav-link.active {
+    font-family: 'akaChen', sans-serif !important;
+    font-size: 1.5em;
+}
+
+.single .nav-tabs .nav-item .nav-link {
+    font-size: 1.5em;
+    font-family: 'akaChen', sans-serif !important;
+}
+}
