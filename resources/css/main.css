@@ -760,6 +760,10 @@ button.btn.btn-block.btn-default {
 
 }
 
+.single .title span {
+    font-family: 'akaChen', sans-serif !important;
+}
+
 .pricing-price {
   color: #016FF9;
   display: block;
