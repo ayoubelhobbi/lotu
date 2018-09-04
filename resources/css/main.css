@@ -598,6 +598,11 @@ span.vat-porto-info.small.text-muted, .btn-labeled, .basket-preview .totals, spa
 
 .verfuegbare_menge {
   color: #7ed321;
+  float: right;
+}
+
+ol, ul, dl {
+  color: #000;
 }
 
 
@@ -938,6 +943,10 @@ button.btn.btn-block.btn-default {
 
   .wrapper-main .navbar {
   	padding: 1px 1px 1px 1px !important;
+  }
+
+  .custom-select {
+    background-position-x: 94%;
   }
 
 }
