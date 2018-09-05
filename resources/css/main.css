@@ -173,6 +173,10 @@ body > #vue-app, body > #vue-error {
   background: none;
 }
 
+.nav-tabs .nav-link {
+  padding: 1rem 1rem;
+}
+
 .top-bar {
   background-color: transparent;
 }
@@ -997,6 +1001,7 @@ button.btn.btn-block.btn-default {
     border: none;
     background-color: #515151;
     border-top-right-radius: 2rem;
+    color: #fff;
 }
 }
 
