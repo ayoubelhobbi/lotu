@@ -1110,6 +1110,10 @@ span.vat-porto-info.small.text-muted, .btn-labeled, .basket-preview .totals, spa
   background-color: transparent;
 }
 
+span.vat-porto-info.small.text-muted, .btn-labeled, .basket-preview .totals, span.vat.small.text-muted {
+  background: transparent;
+}
+
 
 }
 
