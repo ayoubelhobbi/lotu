@@ -158,6 +158,7 @@ body > #vue-app, body > #vue-error {
 
 .list-controls .list-controls-inner {
   background: none;
+  margin-bottom: 0rem !important;
 }
 
 .wrapper-main > nav.container-max {
@@ -904,7 +905,7 @@ button.btn.btn-block.btn-default {
 }
 
 .wrapper-main #page-body {
-    margin-top: 155px;
+    margin-top: 120px;
     background: transparent;
 }
 
@@ -1092,7 +1093,7 @@ nav.navbar.megamenu #mainNavbarCollapsable ul.mainmenu > li > ul.collapse > li a
 }
 
 
-@media (max-width: 991px){
+@media (max-width: 992px){
 .cmp-product-thumb .mobile-width-button {
     background-color: #ffce00 !important;
     color: #222222;
@@ -1113,8 +1114,6 @@ span.vat-porto-info.small.text-muted, .btn-labeled, .basket-preview .totals, spa
 span.vat-porto-info.small.text-muted, .btn-labeled, .basket-preview .totals, span.vat.small.text-muted {
   background: transparent;
 }
-
-
 }
 
 @media (min-width: 992px){
