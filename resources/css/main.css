@@ -1091,6 +1091,14 @@ nav.navbar.megamenu #mainNavbarCollapsable ul.mainmenu > li > ul.collapse > li a
 }
 }
 
+
+@media (max-width: 991px){
+.cmp-product-thumb .mobile-width-button {
+    background-color: #ffce00 !important;
+    color: #222222;
+}
+}
+
 @media (min-width: 992px){
 nav.navbar.megamenu #mainNavbarCollapsable ul.mainmenu > li > ul.collapse {
   background-color: #222222;
