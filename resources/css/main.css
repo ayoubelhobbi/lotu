@@ -183,6 +183,11 @@ body > #vue-app, body > #vue-error {
   position: relative;
 }
 
+.price span {
+    font-family: 'akaChen', sans-serif !important;
+    font-size: 3rem;
+}
+
 #mainNavbarCollapsable ul.mainmenu {
   color: #fff;
 }
