@@ -624,6 +624,7 @@ ol, ul, dl {
 
 .owl-carousel .carousel-control:hover i {
   opacity: 0.7;
+  color: #ffce00;
 }
 
 
