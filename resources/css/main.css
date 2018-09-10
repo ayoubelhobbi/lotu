@@ -409,6 +409,8 @@ div.col-md-5.single-rightside.m-t-1 > span.vat.small.text-muted {
 
 .owl-carousel .owl-single-item-control {
   color: #ffce00;
+  padding-right: 1rem;
+  padding-left: 1rem;
 }
 
 .cmp-contact h1{
@@ -616,7 +618,13 @@ ol, ul, dl {
   color: #000;
 }
 
+.cmp-search-box .search-submit {
+  color: #ffce00;
+}
 
+.owl-carousel .carousel-control:hover i {
+  opacity: 0.7;
+}
 
 
 
