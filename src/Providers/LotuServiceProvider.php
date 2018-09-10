@@ -49,6 +49,12 @@ class LotuServiceProvider extends ServiceProvider
        ]);
    		}, 0);
 
+			$eventDispatcher->listen( 'IO.ResultFields.*', function(ResultFieldTemplate $templateContainer) {
+       $templateContainer->setTemplates([
+           ResultFieldTemplate::TEMPLATE_LIST_ITEM   => 'Lotu::ResultFields.ListItem'
+       ]);
+   }, 0);
+
 	 }
 
 
