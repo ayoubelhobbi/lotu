@@ -180,6 +180,7 @@ body > #vue-app, body > #vue-error {
 
 .top-bar {
   background-color: transparent;
+  position: relative;
 }
 
 #mainNavbarCollapsable ul.mainmenu {
@@ -958,10 +959,10 @@ button.btn.btn-block.btn-default {
     background-position-x: 94%;
   }
   .widget-image-carousel.widget-primary .widget-caption h2, .widget-image-carousel.widget-primary .widget-caption .h2 {
-    right: 5rem;
-    font-size: 1rem;
+    right: 6rem;
+    font-size: 1.2rem;
     width: 17rem;
-    top: 1rem;
+    top: 1.4rem;
 }
 }
 
