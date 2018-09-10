@@ -628,7 +628,9 @@ ol, ul, dl {
   color: #ffce00;
 }
 
-
+.basket-item-container .basket-item .image-container {
+  width: auto;
+}
 
 
 
