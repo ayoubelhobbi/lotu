@@ -412,6 +412,7 @@ div.col-md-5.single-rightside.m-t-1 > span.vat.small.text-muted {
   padding-right: 1rem;
   padding-left: 1rem;
   font-size: 2.5rem;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, .6);
 }
 
 .cmp-contact h1{
