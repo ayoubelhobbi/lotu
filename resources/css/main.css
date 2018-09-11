@@ -955,9 +955,6 @@ button.btn.btn-block.btn-default {
 a.nav-link.active:hover, a.nav-link:hover {
   color: #000 !important;
 }
-
-
-
 }
 
 @media (min-width: 900px) {
