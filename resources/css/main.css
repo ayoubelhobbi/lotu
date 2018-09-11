@@ -616,9 +616,6 @@ span.vat-porto-info.small.text-muted, .btn-labeled, .basket-preview .totals, spa
   float: right;
 }
 
-ol, ul, dl {
-  color: #000;
-}
 
 .cmp-search-box .search-submit {
   color: #ffce00;
