@@ -698,6 +698,9 @@ button.btn.btn-block.btn-default {
 	 clip: rect(1px, 1px, 1px, 1px);
  }
 
+.schwarzeFarbe li {
+  color: #000;
+}
 
 
 
