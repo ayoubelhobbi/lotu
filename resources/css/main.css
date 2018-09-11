@@ -708,6 +708,8 @@ button.btn.btn-block.btn-default {
 
 
 
+
+
 .PricingContainer {
       margin: 0 auto;
     padding: 50px 0 0;
@@ -947,6 +949,15 @@ button.btn.btn-block.btn-default {
 .square-container {
 
 	padding-bottom: 66%;
+}
+
+@media (min-width: 768px) {
+a.nav-link.active:hover, a.nav-link:hover {
+  color: #000 !important;
+}
+
+
+
 }
 
 @media (min-width: 900px) {
