@@ -266,6 +266,10 @@ body > #vue-app, body > #vue-error {
   display: none;
 }*/
 
+.card-columns .h3 {
+    color: #222222;
+}
+
 .page-link {
   background-color: transparent;
   border: none;
