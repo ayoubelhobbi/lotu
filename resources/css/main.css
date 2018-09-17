@@ -262,9 +262,9 @@ body > #vue-app, body > #vue-error {
   opacity: 0.7;
 }
 
-.list-wrapper {
+/* .list-wrapper {
   display: none;
-}
+}*/
 
 .page-link {
   background-color: transparent;
