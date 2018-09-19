@@ -773,10 +773,6 @@ button.btn.btn-block.btn-default {
   max-width: 100%;
 }
 
-.pricing-header {
-
-}
-
 .pricing-features {
   margin: 50px 0 25px;
 }
@@ -816,14 +812,12 @@ button.btn.btn-block.btn-default {
   transition: all 150ms ease-in-out;
 }
 
-.pricing-button:hover,
-.pricing-button:focus {
+.pricing-button:hover, .pricing-button:focus {
   background-color: #e1f1ff;
 }
 
 
-.pricing-button.is-featured:hover,
-.pricing-button.is-featured:active {
+.pricing-button.is-featured:hover, .pricing-button.is-featured:active {
   background-color: #269aff;
 }
 
