@@ -397,7 +397,7 @@ span.vat-porto-info.small.text-muted, .btn-labeled, .basket-preview .totals, spa
 button.close {
   opacity: 1;
   text-shadow: none;
-  padding: none;
+  padding: 0;
 }
 
 .availability_5 {
@@ -727,7 +727,7 @@ button.btn.btn-block.btn-default {
     font-size: 1.8rem;
     margin-bottom: 50px;
 }
-}
+
 
 .PricingPanel {
   background-color: #fff;
@@ -1019,7 +1019,7 @@ a.nav-link.active:hover, a.nav-link:hover {
 }
 }
 
-@media (min-width: ){
+@media (min-width: 992px){
 #single-carousel .owl-item img {
    height: auto;
 }
